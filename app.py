@@ -62,7 +62,7 @@ if page == "Home":
                 label = "Malignant (Cancerous)"
                 confidence = round(prediction * 100, 2)
                 st.error(f"⚠️ Prediction: {label} ({confidence}% Confidence)")
-                st.markdown("### 🚨 Immediate medical attention is advise
+                st.markdown("### 🚨 Immediate medical attention is advise")
                 st.markdown("<style>body {background-color: #ffdddd;}</style>", unsafe_allow_html=True)
                 st.markdown("<h2 style='color:red;'>⚠️ Cancer Detected! Consult a doctor immediately.</h2>", unsafe_allow_html=True)
         
